@@ -3,9 +3,12 @@
 This repository contains the files for each part of our final assignment. There is an Android client and JavaFX client which can be run from within your IDE, and a web service which is currently being hosted on Digital Ocean, so the directory containing that code is just meant to be viewed, not run.
 
 One note to the person grading this, because my AWS has had permissions issues, I have had to resort to hosting my database on a Digital Ocean MySQL server and the web service on a VPS form them. I have been running into issues where the Tomcat server idles despite the config being set to not allow that, so if my clients fail to connect to the web service, please contact me so I can reload the Tomcat server.
-If you'd like, you can also do this yourself using the [Tomcat Manager](http://143.198.226.185:8080/manager/html "Tomcat Manager"). To do this, you will have to login with these credentials:
+
+If you'd like, you can also do this yourself using the [Tomcat Manager](http://143.198.226.185:8080/manager/html "Tomcat manager for my web app"). To do this, you will have to login with these credentials:
+
   Username: admin
   Password: Nelson77
+  
 Then in the "/AddressBookIVService-1.0-SNAPSHOT" application row, press the reload button in the commands column.
 
 ## Application Functions
